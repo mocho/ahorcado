@@ -1,31 +1,31 @@
 require ('./app.rb')
 
-describe 'intento de letra' do
-  it 'prueba de letra generada' do
+describe 'intento de Palabra' do
+  it 'prueba de Palabra generada' do
     #preparo
     dic= Diccionario.new
         
     #accion
-    @a=dic.generarLetra
+    @a=dic.generarPalabra
     
     #validacion
-    expect(@a).to eq "A"
+    expect(@a).to eq "Hola"
   end
   it 'prueba de resultado de resultado incorrecto' do
     #preparo
     dic= Diccionario.new
-    @a=dic.generarLetra
+    @a=dic.generarPalabra
     #accion
-    @res = dic.validar ("b")
+    @res = dic.validar ("bebe")
     #validacion
     expect(@res).to eq false
   end
   it 'prueba de resultado de resultado correcto' do
     #preparo
     dic= Diccionario.new
-    @a=dic.generarLetra
+    @a=dic.generarPalabra
     #accion
-    @res = dic.validar ("A")
+    @res = dic.validar ("Hola")
     #validacion
     expect(@res).to eq true
   end
