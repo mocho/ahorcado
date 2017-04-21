@@ -25,8 +25,8 @@ post '/intentar' do
     @a=dic.generarLetra
     @res = dic.validar (params[:txtpal])
 
-  "Hello World" + @res.to_s
-  #obtener text
+    #"Hello World" + @res.to_s
+  erb :index
 end
     
 
