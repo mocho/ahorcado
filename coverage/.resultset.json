@@ -4,22 +4,47 @@
       "/home/vagrant/csd/ahorcado/app.rb": [
         1,
         null,
-        null,
         1,
         null,
         1,
-        2,
+        5,
+        null,
+        null,
+        1,
+        0,
         null,
         null,
         null
       ],
       "/home/vagrant/csd/ahorcado/features/step_definitions/my_steps.rb": [
         1,
-        2,
+        5,
         null,
         null,
         1,
         2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
         null
       ],
       "/home/vagrant/csd/ahorcado/features/step_definitions/template_steps.rb": [
@@ -63,6 +88,7 @@
         null
       ]
     },
+<<<<<<< HEAD
     "timestamp": 1492782631
   },
   "RSpec": {
@@ -120,5 +146,8 @@
       ]
     },
     "timestamp": 1492786536
+=======
+    "timestamp": 1492785681
+>>>>>>> 514cde997d37bcaf909f6fa056c26133de96c60e
   }
 }
