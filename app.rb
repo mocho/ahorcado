@@ -13,11 +13,23 @@ class Diccionario
   def generarPalabra
     @@palabra
   end
+
+  def actualizarVisual
+    @palabraVisual = "H _ _ _"
+  end
   
   def validar (letra)
-    if @@palabra == letra.to_s
-      return true
-    else false
+    if @@palabra.upcase == letra.to_s.upcase
+      #ganaste
+      return "ganaste"
+    else 
+      @pos = @@palabra.index(letra.to_s) 
+      if @pos != nil
+        actualizarVisual
+        return "letra encontrada"        
+      else
+       return "intenta de nuevo"
+      end
     end
   end
 
@@ -33,8 +45,8 @@ end
 post '/intentar' do
     dic= Diccionario.new
     @a=dic.generarPalabra
-    @palabraVisual =dic.mostrarPalabra
     @res = dic.validar (params[:txtpal])
+    @palabraVisual =dic.mostrarPalabra
 
   erb :index
 end

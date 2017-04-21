@@ -18,7 +18,7 @@ describe 'intento de Palabra' do
     #accion
     @res = dic.validar ("bebe")
     #validacion
-    expect(@res).to eq false
+    expect(@res).to eq "intenta de nuevo"
   end
   it 'prueba de resultado de resultado correcto' do
     #preparo
@@ -27,6 +27,6 @@ describe 'intento de Palabra' do
     #accion
     @res = dic.validar ("Hola")
     #validacion
-    expect(@res).to eq true
+    expect(@res).to eq "ganaste"
   end
 end

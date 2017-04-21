@@ -22,13 +22,13 @@ Scenario:
   Given Inicie la aplicacion 
   And ingresa como valor de "palabraIngresada" la palabra "Hola"  
   When click en boton "intentar"
-  Then debo ver letra "true" en lugar del guion
+  Then debo ver letra "ganaste" en lugar del guion
 
-#Scenario:
-#  Given Inicie la aplicacion 
-#    And ingresa como valor de "palabraIngresada" la letra "H"  
-#   When click en boton "Intentar"
-#   Then debo ver letra "H" en lugar del guion en su posicion
+Scenario:
+  Given Inicie la aplicacion 
+  And ingresa como valor de "palabraIngresada" la letra "H"  
+  When click en boton "Intentar"
+  Then debo ver letra "H" en lugar del guion en su posicion
 
 
   
