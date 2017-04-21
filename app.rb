@@ -20,8 +20,13 @@ get '/' do
 	erb :index
 end
 
-post '/' do
-  "Hello World"
+post '/intentar' do
+  dic= Diccionario.new
+    @a=dic.generarLetra
+    @res = dic.validar (params[:txtpal])
+
+  "Hello World" + @res.to_s
+  #obtener text
 end
     
 
