@@ -64,5 +64,61 @@
       ]
     },
     "timestamp": 1492782631
+  },
+  "RSpec": {
+    "coverage": {
+      "/home/vagrant/csd/ahorcado/spec/ahorcado_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/vagrant/csd/ahorcado/app.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        1,
+        1,
+        0,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1492786536
   }
 }
