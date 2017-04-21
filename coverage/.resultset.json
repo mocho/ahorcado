@@ -8,18 +8,23 @@
         1,
         null,
         1,
-        2,
+        3,
         null,
         null,
         null
       ],
       "/home/vagrant/csd/ahorcado/features/step_definitions/my_steps.rb": [
         1,
-        2,
+        3,
         null,
         null,
         1,
         2,
+        null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/home/vagrant/csd/ahorcado/features/step_definitions/template_steps.rb": [
@@ -63,6 +68,6 @@
         null
       ]
     },
-    "timestamp": 1492782631
+    "timestamp": 1492783852
   }
 }

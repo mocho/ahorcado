@@ -10,5 +10,8 @@ Scenario:
   Given Inicie la aplicacion 
   Then debo ver "_"
 
-
+Scenario:
+  Given Inicie la aplicacion 
+  Then debo ver el input del jugador "palabraIngresada"
+  
 

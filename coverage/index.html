@@ -14,26 +14,26 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-04-21T15:50:31+02:00">2017-04-21T15:50:31+02:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-04-21T16:10:52+02:00">2017-04-21T16:10:52+02:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">61.54%</span></span>
+    (<span class="covered_percent"><span class="red">64.29%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.07
+         1.13
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>3</b> files in total.
-    <b>26</b> relevant lines. 
-    <span class="green"><b>16</b> lines covered</span> and
+    <b>28</b> relevant lines. 
+    <span class="green"><b>18</b> lines covered</span> and
     <span class="red"><b>10</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -57,15 +57,15 @@
         <td>4</td>
         <td>4</td>
         <td>0</td>
-        <td>1.3</td>
+        <td>1.5</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#9e68ab084fad23cfd5d3613521d88f47a6613a69" class="src_link" title="features/step_definitions/my_steps.rb">features/step_definitions/my_steps.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>7</td>
-        <td>4</td>
-        <td>4</td>
+        <td>12</td>
+        <td>6</td>
+        <td>6</td>
         <td>0</td>
         <td>1.5</td>
       </tr>
@@ -146,8 +146,8 @@
           <code class="ruby">get &#39;/&#39; do</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="7">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="7">
+          <span class="hits">3</span>
           
           <code class="ruby">	erb :index</code>
         </li>
@@ -179,8 +179,8 @@
     <h3>features/step_definitions/my_steps.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -194,8 +194,8 @@
           <code class="ruby">When(/^Inicie la aplicacion$/) do</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="2">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="2">
+          <span class="hits">3</span>
           
           <code class="ruby">  visit &#39;/&#39;</code>
         </li>
@@ -228,6 +228,36 @@
           
           
           <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Then(/^debo ver el input del jugador &quot;(.*?)&quot;$/) do |text|</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  last_response.body.should =~ /#{text}/m</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
         </li>
       
     </ol>
